@@ -7,7 +7,7 @@ So, to predict it and classify tumor using, Convolutional Neural Network and Tra
 
 ## Dataset
 It is a kaggle data comprises of 3 dataset in the given problem that are test,train and validation data set.The test and train dataset comprises of 2 classes yes and no.The shape of the train dataset is around 3000 combining both the class and test dataset comprises of 1600 records of both class.
-You can get the dataset from the below link.
+You can download the dataset from the below mentioned link:
 https://drive.google.com/drive/folders/1Zr8O4ad2ZxcT_BycKxFO4vmNzSHy-n7h
 
 ## Approach
