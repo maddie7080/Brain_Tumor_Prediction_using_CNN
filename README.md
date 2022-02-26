@@ -27,8 +27,8 @@ model.add(Dropout(0.5));
 model.add(Dense(1));
 model.add(Activation('sigmoid'))
 model.compile(loss='binary_crossentropy',optimizer='rmsprop',metrics = ['accuracy'])
-To decrease the training time, I have resized the input images to 150*150, so input image shape is 64*64*3.
-2-->T compile the loss I used Binary_crossentropy and the optimizer used is rmsprop because the centered version additionally maintains a moving average of the gradients, and uses that average to estimate the variance.
+To decrease the training time, I have resized the input images to 150x150, so input image shape is 64x64x3.
+2-->To compile the loss I used Binary_crossentropy and the optimizer used is rmsprop because the centered version additionally maintains a moving average of the gradients, and uses that average to estimate the variance.
 ![image](https://user-images.githubusercontent.com/99955096/155849291-de07d4b3-cd37-4715-b986-c822fd079ffd.png)
 
 ## Result
